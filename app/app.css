@@ -1,0 +1,47 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+/*User search styles */
+.container-fluid .sub_headings {
+  text-decoration: underline;
+}
+.container-fluid .dropdown-menu{
+	left:20%;
+}
+.buttoncontainer{
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+.borderBlack{
+	border:1px solid #000;
+}
+
+span.required{
+  color:red !important;
+}
+.input-group-addon{
+	width:0% !important;
+}
